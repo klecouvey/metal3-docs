@@ -51,8 +51,8 @@ The compatibility of IPAM and CAPM3 API versions with CAPI is discussed
 ## Baremetal Operator
 
 Since `capm3-v1.1.2`, BMO follows the semantic versioning scheme for its own
-release cycle, the same way as CAPM3 and IPAM. Two branches are maintained as supported releases.
-Following table summarizes BMO release/test process:
+release cycle, the same way as CAPM3 and IPAM. Two branches are maintained as
+supported releases. Following table summarizes BMO release/test process:
 
 | Minor release | Status    |
 | ------------- | --------- |
@@ -75,19 +75,20 @@ maintained as supported releases.
 
 Following table summarizes Ironic-image release/test process:
 
-| Minor release | Status    | Ironic Branch      |
-| ------------- | --------- | ------------------ |
-| v32.0         | Supported | stable/2025.2      |
-| v31.0         | Supported | bugfix/31.0        |
-| v30.0         | Supported | bugfix/30.0        |
-| v29.0         | Supported | stable/2025.1      |
-| v28.0         | Supported | bugfix/28.0        |
-| v27.0         | Supported | bugfix/27.0        |
-| v26.0         | EOL       | bugfix/26.0        |
-| v25.0         | EOL       | bugfix/25.0 (EOL)  |
-| v24.1         | EOL       | stable/2024.1      |
-| v24.0         | EOL       | bugfix/24.0 (EOL)  |
-| v23.1         | EOL       | bugfix/23.1 (EOL)  |
+| Minor release | Status    | Ironic Branch       |
+| ------------- | --------- | ------------------- |
+| v33.0         | Supported | bugfix/33.0         |
+| v32.0         | Supported | stable/2025.2       |
+| v31.0         | Supported | bugfix/31.0         |
+| v30.0         | EOL       | bugfix/30.0         |
+| v29.0         | Tested    | stable/2025.1       |
+| v28.0         | EOL       | bugfix/28.0 (EOL)   |
+| v27.0         | Tested    | bugfix/27.0 (EOL)   |
+| v26.0         | EOL       | bugfix/26.0 (EOL)   |
+| v25.0         | EOL       | bugfix/25.0 (EOL)   |
+| v24.1         | EOL       | stable/2024.1 (EOL) |
+| v24.0         | EOL       | bugfix/24.0 (EOL)   |
+| v23.1         | EOL       | bugfix/23.1 (EOL)   |
 
 ## Image tags
 
@@ -99,7 +100,7 @@ container images with tags like `capm3-v1.7.0`, where `v1.7.0` would be the
 CAPM3 release it was tested with.
 
 All container images are published through the
-[Metal³ organization in Quay](https://quay.io/organization/metal3-io).
+[Metal³ organization in Quay](https://quay.io/organization/metal3-io/).
 Here are some examples:
 
 - quay.io/metal3-io/cluster-api-provider-metal3:v1.7.0
